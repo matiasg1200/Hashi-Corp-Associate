@@ -16,5 +16,10 @@ crash.*.log
 .terraformrc
 terraform.rc
 
+# .lock files
+*.terraform.lock.hcl
+*.terraform.lock.hcl*
+*.terraform.lock*
+
 # Helpful gitignore template for Terraform
 # https://github.com/github/gitignore/blob/main/Terraform.gitignore
